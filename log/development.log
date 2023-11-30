@@ -1,0 +1,64 @@
+Started GET "/articles" for 192.168.1.109 at 2023-11-30 21:24:32 +0800
+Cannot render console from 192.168.1.109! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 208)
+  Rendered layout layouts/application.html.erb (Duration: 415.2ms | Allocations: 110105)
+Completed 200 OK in 444ms (Views: 424.7ms | ActiveRecord: 0.0ms | Allocations: 119787)
+
+
+Started GET "/articles" for 192.168.1.109 at 2023-11-30 21:24:40 +0800
+Cannot render console from 192.168.1.109! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2159)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 2482)
+
+
+Started GET "/articles" for 192.168.1.109 at 2023-11-30 21:24:42 +0800
+Cannot render console from 192.168.1.109! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 5514)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 5846)
+
+
+Started GET "/articles" for 192.168.1.109 at 2023-11-30 21:26:02 +0800
+Cannot render console from 192.168.1.109! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 208)
+  Rendered layout layouts/application.html.erb (Duration: 406.0ms | Allocations: 111326)
+Completed 200 OK in 429ms (Views: 414.1ms | ActiveRecord: 0.0ms | Allocations: 121015)
+
+
+Started GET "/articles" for 192.168.1.109 at 2023-11-30 21:26:04 +0800
+Cannot render console from 192.168.1.109! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 5518)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 5872)
+
+
+Started GET "/articles" for 192.168.1.109 at 2023-11-30 21:26:05 +0800
+Cannot render console from 192.168.1.109! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2296)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 2632)
+
+
