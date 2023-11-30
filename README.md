@@ -13,19 +13,23 @@ export DEBIAN_FRONTEND=noninteractive
 
 apt update -y
 
-apt install -y ruby-full sqlite3 libyaml-dev
+apt install -y ruby-full sqlite3 libyaml-dev build-essential patch ruby-dev zlib1g-dev liblzma-dev tzdata
 
 gem sources --add http://mirrors.tuna.tsinghua.edu.cn/rubygems/ --remove https://rubygems.org/
 
 gem clean
 
-gem install rails bundler
+gem install  io-console stringio date bigdecimal rails bundler
 
 bundle config mirror.https://rubygems.org https://gems.ruby-china.com
 
 if [ ! -d ~/Winter-rails ]; then cd ~/ ; git clone https://github.com/AndyInAi/Winter-rails.git; fi
 
+bundle install --gemfile ~/Winter-rails/Gemfile
+
 cd  ~/Winter-rails
+
+chmod +x bin/rails
 
 bin/rails server -b 0.0.0.0 -p 8080
 
